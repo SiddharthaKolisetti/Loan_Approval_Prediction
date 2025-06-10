@@ -55,24 +55,24 @@ An ensemble of decision trees that enhances accuracy and reduces overfitting. Pe
 
 # Key Insights
 
-Logistic Regression:
+**Logistic Regression:**
 A strong baseline model with 89% accuracy and balanced performance across all metrics. Its simplicity and interpretability make it a reliable choice for binary financial classification, especially when model transparency is important.
 
-Kernel SVM:
+**Kernel SVM:**
 Delivered 91% accuracy with the second-highest F1-score (0.80). It handled the feature complexity well and offered a strong balance of precision and generalization, though it's more computationally intensive.
 
-K-Nearest Neighbors (KNN):
+**K-Nearest Neighbors (KNN):**
 Achieved 90% accuracy, with strong precision (0.84) but lower recall (0.69), indicating it's conservative in predicting approvals. Best used when interpretability isn’t a priority and computational resources allow.
 
-Naive Bayes:
+**Naive Bayes:**
 Showed the lowest accuracy (74%), but perfect recall (1.00), meaning it predicted all approved loans correctly—but at the cost of many false positives (low precision). It may be suitable in cases where minimizing false negatives is critical, but not when precision is required.
 
-Decision Tree:
+**Decision Tree:**
 Offered 91% accuracy, with good precision (0.86) and moderate recall (0.72). Its interpretability and fast training make it suitable for explaining decisions, though it may require tuning to avoid overfitting.
 
-Random Forest:
+**Random Forest:**
 The best overall performer, with 92% accuracy, highest precision (0.90), and highest F1-score (0.81). It combines robustness with high performance, making it ideal for production use where both accuracy and stability are crucial.
+
 # Conclusion
 
 This project highlights how various classification models perform on a real-world loan approval dataset. While **Random Forest** and **Kernel SVM** are expected to offer the best predictive power, **Logistic Regression** remains a strong baseline with solid interpretability. The choice of model should consider accuracy, computational efficiency, and interpretability depending on the deployment context.
-
