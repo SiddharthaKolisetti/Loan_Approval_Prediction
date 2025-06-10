@@ -10,6 +10,8 @@ The objective of this repository is to compare the performance of various popula
 
 The dataset used in this project is a structured tabular dataset containing information about loan applicants. Each row represents an applicant and includes various numerical and categorical features along with the target label: whether the loan was approved (1) or rejected (0).
 
+You can access the dataset here: [Loan Prediction Dataset on OpenML](https://www.openml.org/search?type=data&status=active&id=46526)
+
 - Features include: age, education, income, employment experience, credit score, loan amount, interest rate, and categorical variables like loan intent and home ownership status.
 - Target: `loan_status` (1 for approved, 0 for rejected)
 
@@ -50,7 +52,6 @@ An ensemble of decision trees that enhances accuracy and reduces overfitting. Pe
 | Decision Tree       | 0.91     | 0.86      | 0.72   | 0.78     |
 | Random Forest       | 0.92     | 0.90      | 0.73   | 0.81     |
 
-*Note: Replace TBD with actual values after running the models.*
 
 # Key Insights
 
